@@ -1,12 +1,27 @@
 import Image from "next/image"
 import Link from "next/link"
-import latest_post_data from "@/data/LatestPostData";
 import LatestPostSidebar from "@/components/common/LatestPostSidebar";
-
-import latestThumb_1 from "@/assets/img/blog/latest_post01.jpg";
 import SectionTitle from "@/components/common/SectionTitle";
 
-const LatestPost = () => {
+interface NewsData {
+   slug: string;
+   title: string;
+   category: string;
+   shortdescription: string;
+   description: string;
+   date: string;
+   image: string;
+}
+
+interface Props {
+   data: NewsData[];
+}
+
+const LatestPost: React.FC<Props> = ({ data }) => {
+   if (!data || data.length === 0) return null;
+
+   const [firstPost, ...restPosts] = data;
+
    return (
       <section className="latest-post-area pt-60 pb-60">
          <div className="container">
@@ -16,39 +31,64 @@ const LatestPost = () => {
                      <SectionTitle title="Explore Latest Recipes" />
                      <div className="latest-post-item-wrap">
                         <div className="row">
+                           {/* First Featured Post */}
                            <div className="col-66">
                               <div className="featured-post-item latest-post-item big-post">
                                  <div className="featured-post-thumb">
-                                    <Link href="/blog-details"><Image src={latestThumb_1} alt="" /></Link>
+                                    <Link href={`/blog-details/${firstPost.slug}`}>
+                                       <div style={{ position: "relative", width: "100%", height: 400 }}>
+                                          <Image
+                                             src={firstPost.image}
+                                             alt={firstPost.title}
+                                             fill
+                                             sizes="(max-width: 768px) 100vw, 800px"
+                                             style={{ objectFit: "cover" }}
+                                          />
+                                       </div>
+                                    </Link>
                                  </div>
                                  <div className="featured-post-content">
-                                    <Link href="/blog" className="post-tag">Appetizer</Link>
-                                    <h2 className="post-title bold-underline"><Link href="/blog-details">Favorite Browned Butter Chocolate <br /> Cookies Daily Breakfast</Link></h2>
+                                    <Link href="/blog" className="post-tag">{firstPost.category}</Link>
+                                    <h2 className="post-title bold-underline">
+                                       <Link href={`/blog-details/${firstPost.slug}`}>{firstPost.title}</Link>
+                                    </h2>
                                     <div className="blog-post-meta">
                                        <ul className="list-wrap">
-                                          <li><i className="flaticon-user"></i>by<Link href="/author">Admin</Link></li>
-                                          <li><i className="flaticon-calendar"></i>27 August, 2024</li>
-                                          <li><i className="flaticon-history"></i>20 Mins</li>
+                                          <li><i className="flaticon-user"></i>by <Link href="/author">Admin</Link></li>
+                                          <li><i className="flaticon-calendar"></i>{firstPost.date}</li>
                                        </ul>
                                     </div>
-                                    <p>Browned butter and brown sugar caramelly goodness, crispy edges thick and soft centers and melty little puddles of chocolate My first favorite thing about these browned butter.</p>
+                                    <p>{firstPost.shortdescription}</p>
                                  </div>
                               </div>
                            </div>
+
+                           {/* Next 2 Posts */}
                            <div className="col-34">
                               <div className="latest-post-wrap">
-                                 {latest_post_data.filter((items) => items.page === "home_1").map((item) => (
-                                    <div key={item.id} className="featured-post-item latest-post-item small-post">
+                                 {restPosts.slice(0, 2).map((item) => (
+                                    <div key={item.slug} className="featured-post-item latest-post-item small-post">
                                        <div className="featured-post-thumb">
-                                          <Link href="/blog-details"><Image src={item.thumb} alt="" /></Link>
+                                          <Link href={`/blog-details/${item.slug}`}>
+                                             <div style={{ position: "relative", width: "100%", height: 200 }}>
+                                                <Image
+                                                   src={item.image}
+                                                   alt={item.title}
+                                                   fill
+                                                   sizes="(max-width: 768px) 100vw, 400px"
+                                                   style={{ objectFit: "cover" }}
+                                                />
+                                             </div>
+                                          </Link>
                                        </div>
                                        <div className="featured-post-content">
-                                          <Link href="/blog" className="post-tag">{item.tag}</Link>
-                                          <h2 className="post-title"><Link href="/blog-details">{item.title}</Link>
+                                          <Link href="/blog" className="post-tag">{item.category}</Link>
+                                          <h2 className="post-title line-clamp-2">
+                                             <Link href={`/blog-details/${item.slug}`}>{item.title}</Link>
                                           </h2>
                                           <div className="blog-post-meta">
                                              <ul className="list-wrap">
-                                                <li><i className="flaticon-user"></i>by<Link href="/author">Admin</Link></li>
+                                                <li><i className="flaticon-user"></i>by <Link href="/author">Admin</Link></li>
                                                 <li><i className="flaticon-calendar"></i>{item.date}</li>
                                              </ul>
                                           </div>
@@ -68,4 +108,4 @@ const LatestPost = () => {
    )
 }
 
-export default LatestPost
+export default LatestPost;
