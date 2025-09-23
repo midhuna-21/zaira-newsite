@@ -7,20 +7,20 @@ import Link from "next/link";
 import sidebarThumb from "@/assets/img/blog/blog_rc_post.jpg";
 
 interface NewsData {
-  slug: string;
-  title: string;
-  category: string;
-  shortdescription: string;
-  description: string;
-  date: string;
-  image: string;
+    slug: string;
+    title: string;
+    category: string;
+    shortdescription: string;
+    description: string;
+    date: string;
+    image: string;
 }
 
 interface Props {
-  otherArticles: NewsData[];
+    data: NewsData[];
 }
 
-const BlogSidebar:React.FC<Props> = ({otherArticles}) => {
+const BlogSidebar:React.FC<Props> = ({data}) => {
    return (
       <div className="col-30">
          <div className="sidebar-wrap">
@@ -54,39 +54,39 @@ const BlogSidebar:React.FC<Props> = ({otherArticles}) => {
                <div className="hot-post-wrap">
                   <div className="hot-post-item">
                      <div className="hot-post-thumb">
-                        <Link href="/blog-details"><Image src={otherArticles[0].image} alt={otherArticles[0].title} width={200} height={200} /></Link>
+                        <Link href="/blog-details"><Image src={data[0].image} alt={data[0].title} width={200} height={200} /></Link>
                      </div>
                      <div className="hot-post-content">
-                        <Link href="/blog" className="post-tag">{otherArticles[0].category}</Link>
-                        <h4 className="post-title"><Link href="/blog-details">{otherArticles[0].title}</Link></h4>
+                        <Link href="/blog" className="post-tag">{data[0].category}</Link>
+                        <h4 className="post-title"><Link href="/blog-details">{data[0].title}</Link></h4>
                         <div className="blog-post-meta">
                            <ul className="list-wrap">
-                              <li><i className="flaticon-calendar"></i>{otherArticles[0].date}</li>
-                              <li><i className="flaticon-history"></i>20 Mins</li>
+                              <li><i className="flaticon-calendar"></i>{data[0].date}</li>
+                              {/* <li><i className="flaticon-history"></i>20 Mins</li> */}
                            </ul>
                         </div>
                      </div>
                   </div>
                   <div className="hot-post-item">
                      <div className="hot-post-content">
-                        <Link href="/blog" className="post-tag">{otherArticles[1].category}</Link>
-                        <h4 className="post-title"><Link href="/blog-details">{otherArticles[1].title}</Link></h4>
+                        <Link href="/blog" className="post-tag">{data[1].category}</Link>
+                        <h4 className="post-title"><Link href="/blog-details">{data[1].title}</Link></h4>
                         <div className="blog-post-meta">
                            <ul className="list-wrap">
-                              <li><i className="flaticon-calendar"></i>{otherArticles[1].date}</li>
-                              <li><i className="flaticon-history"></i>20 Mins</li>
+                              <li><i className="flaticon-calendar"></i>{data[1].date}</li>
+                              {/* <li><i className="flaticon-history"></i>20 Mins</li> */}
                            </ul>
                         </div>
                      </div>
                   </div>
                   <div className="hot-post-item">
                      <div className="hot-post-content">
-                        <Link href="/blog" className="post-tag">{otherArticles[2].category}</Link>
-                        <h4 className="post-title"><Link href="/blog-details">{otherArticles[2].title}</Link></h4>
+                        <Link href="/blog" className="post-tag">{data[2].category}</Link>
+                        <h4 className="post-title"><Link href="/blog-details">{data[2].title}</Link></h4>
                         <div className="blog-post-meta">
                            <ul className="list-wrap">
-                              <li><i className="flaticon-calendar"></i>{otherArticles[2].date}</li>
-                              <li><i className="flaticon-history"></i>20 Mins</li>
+                              <li><i className="flaticon-calendar"></i>{data[2].date}</li>
+                              {/* <li><i className="flaticon-history"></i>20 Mins</li> */}
                            </ul>
                         </div>
                      </div>

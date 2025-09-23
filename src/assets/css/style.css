@@ -1834,7 +1834,24 @@ label {
 }
 .banner-post-content .post-title a {
     background-size: 0 2px;
+    
 }
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;  
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;  
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .banner-post-content .post-title a:hover {
     color: var(--tg-white);
 }
