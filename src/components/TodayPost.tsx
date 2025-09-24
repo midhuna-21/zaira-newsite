@@ -6,22 +6,20 @@ import VideoPopup from '@/modals/VideoPopup';
 import { useState } from "react";
 
 interface NewsData {
-    slug: string;
-    title: string;
-    category: string;
-    shortdescription: string;
-    description: string;
-    date: string;
-    image: string;
+  slug: string;
+  title: string;
+  category: string;
+  shortdescription: string;
+  description: string;
+  date: string;
+  image: string;
 }
 
 interface Props {
-    data: NewsData[];
+  data: NewsData[];
 }
 
-const TodayPost:React.FC<Props> = ({data}) => {
-
-  const [isVideoOpen, setIsVideoOpen] = useState(false);
+const TodayPost: React.FC<Props> = ({ data }) => {
 
   return (
     <>
@@ -34,19 +32,29 @@ const TodayPost:React.FC<Props> = ({data}) => {
         </div>
         <div className="today-post-wrap">
           <div className="row gutter-40 justify-content-center">
-          {data.slice(0, 3).map((item) => (
+            {data.slice(0, 3).map((item) => (
               <div key={item.slug} className="col-lg-4 col-md-6">
                 <div className="banner-post-five banner-post-seven">
                   <div className="banner-post-thumb-five">
-                    <Link href="/blog-details"><Image src={item.image} alt={item.title} width={200} height={200} /></Link>
-                  
+                    <Link
+                      href={`/${item.category}/${item.slug}`}
+                      title={item.slug}
+                      className="block w-full"
+                      style={{ color: "inherit" }}
+                    ><Image src={item.image} alt={item.title} width={200} height={200} /></Link>
+
                   </div>
                   <div className="banner-post-content-five">
-                    <Link href="blog" className="post-tag-four">{item.category}</Link>
-                    <h2 className="post-title"><Link href="/blog-details">{item.title}</Link></h2>
+                    <p className="post-tag-four">{item.category}</p>
+                    <h2 className="post-title">                     <Link
+                      href={`/${item.category}/${item.slug}`}
+                      title={item.slug}
+                      className="block w-full"
+                      style={{ color: "inherit" }}
+                    >{item.title}</Link></h2>
                     <div className="blog-post-meta">
                       <ul className="list-wrap">
-                        <li><i className="flaticon-user"></i>by<Link href="/author">Admin</Link></li>
+                        <li><i className="flaticon-user"></i>by<span>Admin</span></li>
                         <li><i className="flaticon-calendar"></i>{item.date}</li>
                       </ul>
                     </div>
@@ -57,7 +65,7 @@ const TodayPost:React.FC<Props> = ({data}) => {
           </div>
         </div>
       </section>
-    
+
     </>
   )
 }

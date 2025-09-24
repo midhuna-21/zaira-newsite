@@ -29,7 +29,7 @@ const BlogArea: React.FC<Props> = ({ style, data }) => {
   const blog = data;
 
   // Pagination setup
-  const itemsPerPage = 5; 
+  const itemsPerPage = 5;
   const [itemOffset, setItemOffset] = useState(0);
 
   const endOffset = itemOffset + itemsPerPage;
@@ -57,23 +57,37 @@ const BlogArea: React.FC<Props> = ({ style, data }) => {
                 {currentItems.map((item) => (
                   <div key={item.slug} className="weekly-post-item weekly-post-four">
                     <div className="weekly-post-thumb">
-                      <Link href={`/blog-details/${item.slug}`}>
+                      <Link
+                        href={`/${item.category}/${item.slug}`}
+                        title={item.slug}
+                        className="block w-full"
+                        style={{ color: "inherit" }}
+                      >
                         <Image src={item.image} alt={item.title} width={200} height={200} />
                       </Link>
                     </div>
                     <div className="weekly-post-content">
-                      <Link href="/blog" className="post-tag">{item.category}</Link>
+                      <p className="post-tag">{item.category}</p>
                       <h2 className="post-title">
-                        <Link href={`/blog-details/${item.slug}`}>{item.title}</Link>
+                        <Link
+                          href={`/${item.category}/${item.slug}`}
+                          title={item.slug}
+                          className="block w-full"
+                          style={{ color: "inherit" }}
+                        >{item.title}</Link>
                       </h2>
                       <div className="blog-post-meta">
                         <ul className="list-wrap">
                           <li><i className="flaticon-calendar"></i>{item.date}</li>
                         </ul>
                       </div>
-                      <p>{item.shortdescription}</p>
+                      <p className="line-clamp-3">{item.shortdescription}</p>
                       <div className="view-all-btn">
-                        <Link href={`/blog-details/${item.slug}`} className="link-btn">Read More
+                        <Link
+                          href={`/${item.category}/${item.slug}`}
+                          title={item.slug}
+                          style={{ color: "inherit" }}
+                          className="link-btn">Read More
                           <span className="svg-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" fill="none">
                               <path d="M1.07692 10L0 8.92308L7.38462 1.53846H0.769231V0H10V9.23077H8.46154V2.61538L1.07692 10Z" fill="currentColor" />
@@ -104,7 +118,6 @@ const BlogArea: React.FC<Props> = ({ style, data }) => {
               </div>
             </div>
 
-            {/* ✅ Pass sidebarItems to BlogSidebar */}
             <BlogSidebar data={sidebarItems} />
           </div>
         </div>

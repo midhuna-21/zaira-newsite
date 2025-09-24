@@ -17,7 +17,7 @@ const Category = () => {
          <div className="sidebar-categories">
             <ul className="list-wrap">
                    <li>
-                  <Link href="/blog" style={{ backgroundImage: `url(${businessPicture.src})` }}>
+                  <Link href="/business" style={{ backgroundImage: `url(${businessPicture.src})` }}>
                      <span className="post-tag post-tag-three">Business</span>
                      <span className="right-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
@@ -28,7 +28,7 @@ const Category = () => {
                   </Link>
                </li> 
                <li>
-                  <Link href="/blog" style={{ backgroundImage: `url(${innovationPicture.src})` }}>
+                  <Link href="/innovation" style={{ backgroundImage: `url(${innovationPicture.src})` }}>
                      <span className="post-tag post-tag-three">         Innovation</span>
                      <span className="right-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
@@ -40,7 +40,7 @@ const Category = () => {
                </li>
            
                <li>
-                  <Link href="/blog" style={{ backgroundImage: `url(${enterprisePictue.src})` }}>
+                  <Link href="/enterprise" style={{ backgroundImage: `url(${enterprisePictue.src})` }}>
                      <span className="post-tag post-tag-three">Enterprise</span>
                      <span className="right-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
@@ -51,7 +51,7 @@ const Category = () => {
                   </Link>
                </li>
                <li>
-                  <Link href="/blog" style={{ backgroundImage: `url(${investingPictue.src})` }}>
+                  <Link href="/investing" style={{ backgroundImage: `url(${investingPictue.src})` }}>
                      <span className="post-tag post-tag-three">Investing</span>
                      <span className="right-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
@@ -62,7 +62,7 @@ const Category = () => {
                   </Link>
                </li>
                 <li>
-                  <Link href="/blog" style={{ backgroundImage: `url(${usPicture.src})` }}>
+                  <Link href="/us" style={{ backgroundImage: `url(${usPicture.src})` }}>
                      <span className="post-tag post-tag-three">US </span>
                      <span className="right-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">

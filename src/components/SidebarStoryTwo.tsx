@@ -60,7 +60,13 @@ const SidebarStoryTwo:React.FC<Props> = ({data}) => {
                <div key={item.slug} className="stories-post-two">
                   {/* <h2 className="number">{item.category}.</h2> */}
                   <div className="stories-post-content">
-                     <h5 className="post-title"><Link href="/blog-details">{item.title}</Link></h5>
+                     <h5 className="post-title">       
+                                      <Link
+      href={`/${item.category}/${item.slug}`}
+      title={item.slug}
+      className="block w-full"
+      style={{ color: "inherit" }}
+    >{item.title}</Link></h5>
                      <div className="blog-post-meta">
                         <ul className="list-wrap">
                            <li><i className="flaticon-calendar"></i>{item.date}</li>

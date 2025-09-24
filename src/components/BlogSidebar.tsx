@@ -7,20 +7,20 @@ import Link from "next/link";
 import sidebarThumb from "@/assets/img/blog/blog_rc_post.jpg";
 
 interface NewsData {
-    slug: string;
-    title: string;
-    category: string;
-    shortdescription: string;
-    description: string;
-    date: string;
-    image: string;
+   slug: string;
+   title: string;
+   category: string;
+   shortdescription: string;
+   description: string;
+   date: string;
+   image: string;
 }
 
 interface Props {
-    data: NewsData[];
+   data: NewsData[];
 }
 
-const BlogSidebar:React.FC<Props> = ({data}) => {
+const BlogSidebar: React.FC<Props> = ({ data }) => {
    return (
       <div className="col-30">
          <div className="sidebar-wrap">
@@ -54,11 +54,22 @@ const BlogSidebar:React.FC<Props> = ({data}) => {
                <div className="hot-post-wrap">
                   <div className="hot-post-item">
                      <div className="hot-post-thumb">
-                        <Link href="/blog-details"><Image src={data[0].image} alt={data[0].title} width={200} height={200} /></Link>
+                        <Link
+                           href={`/${data[0].category}/${data[0].slug}`}
+                           title={data[0].slug}
+                           className="block w-full"
+                           style={{ color: "inherit" }}
+                        ><Image src={data[0].image} alt={data[0].title} width={200} height={200} /></Link>
                      </div>
                      <div className="hot-post-content">
-                        <Link href="/blog" className="post-tag">{data[0].category}</Link>
-                        <h4 className="post-title"><Link href="/blog-details">{data[0].title}</Link></h4>
+                        <p className="post-tag">{data[0].category}</p>
+                        <h4 className="post-title">
+                           <Link
+                              href={`/${data[0].category}/${data[0].slug}`}
+                              title={data[0].slug}
+                              className="block w-full"
+                              style={{ color: "inherit" }}
+                           >{data[0].title}</Link></h4>
                         <div className="blog-post-meta">
                            <ul className="list-wrap">
                               <li><i className="flaticon-calendar"></i>{data[0].date}</li>
@@ -69,8 +80,13 @@ const BlogSidebar:React.FC<Props> = ({data}) => {
                   </div>
                   <div className="hot-post-item">
                      <div className="hot-post-content">
-                        <Link href="/blog" className="post-tag">{data[1].category}</Link>
-                        <h4 className="post-title"><Link href="/blog-details">{data[1].title}</Link></h4>
+                        <p className="post-tag">{data[1].category}</p>
+                        <h4 className="post-title"> <Link
+                           href={`/${data[1].category}/${data[1].slug}`}
+                           title={data[1].slug}
+                           className="block w-full"
+                           style={{ color: "inherit" }}
+                        >{data[1].title}</Link></h4>
                         <div className="blog-post-meta">
                            <ul className="list-wrap">
                               <li><i className="flaticon-calendar"></i>{data[1].date}</li>
@@ -81,8 +97,13 @@ const BlogSidebar:React.FC<Props> = ({data}) => {
                   </div>
                   <div className="hot-post-item">
                      <div className="hot-post-content">
-                        <Link href="/blog" className="post-tag">{data[2].category}</Link>
-                        <h4 className="post-title"><Link href="/blog-details">{data[2].title}</Link></h4>
+                        <p className="post-tag">{data[2].category}</p>
+                        <h4 className="post-title"> <Link
+                           href={`/${data[2].category}/${data[2].slug}`}
+                           title={data[2].slug}
+                           className="block w-full"
+                           style={{ color: "inherit" }}
+                        >{data[2].title}</Link></h4>
                         <div className="blog-post-meta">
                            <ul className="list-wrap">
                               <li><i className="flaticon-calendar"></i>{data[2].date}</li>

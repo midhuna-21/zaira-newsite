@@ -11,20 +11,20 @@ import TopNewsSidebar from "./TopNewsSidebar";
 import thumb_1 from "@/assets/img/blog/top_news_post01.jpg"
 
 interface NewsData {
-    slug: string;
-    title: string;
-    category: string;
-    shortdescription: string;
-    description: string;
-    date: string;
-    image: string;
+   slug: string;
+   title: string;
+   category: string;
+   shortdescription: string;
+   description: string;
+   date: string;
+   image: string;
 }
 
 interface Props {
-    data: NewsData[];
+   data: NewsData[];
 }
 
-const TopNews:React.FC<Props> = ({data}) => {
+const TopNews: React.FC<Props> = ({ data }) => {
 
    const [isVideoOpen, setIsVideoOpen] = useState(false);
 
@@ -48,11 +48,24 @@ const TopNews:React.FC<Props> = ({data}) => {
                         <div className="col-12">
                            <div className="top-news-post">
                               <div className="top-news-post-thumb">
-                                 <Link href="/blog-details"><Image src={data[0].image} alt={data[0].title} width={200} height={200}/></Link>
-                                   </div>
+                                 <Link
+                                    href={`/${data[0].category}/${data[0].slug}`}
+                                    title={data[0].slug}
+                                    className="block w-full"
+                                    style={{ color: "inherit" }}
+                                 ><Image src={data[0].image} alt={data[0].title} width={200} height={200} /></Link>
+                              </div>
                               <div className="top-news-post-content">
-                                 <Link href="/blog" className="post-tag-four">{data[0].category}</Link>
-                                 <h2 className="post-title bold-underline"><Link href="/blog-details">{data[0].title}</Link></h2>
+                                 <p className="post-tag-four">{data[0].category}</p>
+                                 <h2 className="post-title bold-underline">
+                                    <Link
+                                       href={`/${data[0].category}/${data[0].slug}`}
+                                       title={data[0].slug}
+                                       className="block w-full"
+                                       style={{ color: "inherit" }}
+                                    >
+                                       {data[0].title}
+                                    </Link></h2>
                                  <div className="blog-post-meta">
                                     <ul className="list-wrap">
                                        <li><i className="flaticon-calendar"></i>{data[0].category}</li>
@@ -73,15 +86,25 @@ const TopNews:React.FC<Props> = ({data}) => {
                               </div>
                            </div>
                         </div>
-                    {data.slice(0, 3).map((item) => (
+                        {data.slice(0, 3).map((item) => (
                            <div key={item.slug} className="col-lg-4">
                               <div className="horizontal-post-four">
                                  <div className="horizontal-post-thumb-four">
-                                    <Link href="/blog-details"><Image src={item.image} alt={item.title} width={200} height={100} /></Link>
+                                    <Link
+                                       href={`/${item.category}/${item.slug}`}
+                                       title={item.slug}
+                                       className="block w-full"
+                                       style={{ color: "inherit" }}
+                                    ><Image src={item.image} alt={item.title} width={200} height={100} /></Link>
                                  </div>
                                  <div className="horizontal-post-content-four">
-                                    <Link href="blog" className="post-tag-four">{item.category}</Link>
-                                    <h4 className="post-title line-clamp-2"><Link href="/blog-details">{item.title}</Link></h4>
+                                    <p className="post-tag-four">{item.category}</p>
+                                    <h4 className="post-title line-clamp-2"> <Link
+                                       href={`/${item.category}/${item.slug}`}
+                                       title={item.slug}
+                                       className="block w-full"
+                                       style={{ color: "inherit" }}
+                                    >{item.title}</Link></h4>
                                     <div className="blog-post-meta">
                                        <ul className="list-wrap">
                                           <li><i className="flaticon-calendar"></i>{item.date}</li>
@@ -93,9 +116,9 @@ const TopNews:React.FC<Props> = ({data}) => {
                         ))}
                      </div>
                      <AdBannerThree />
-                     <SportArea data={[data[4],data[5],data[6],data[7],data[8]]}/>
+                     <SportArea data={[data[4], data[5], data[6], data[7], data[8]]} />
                   </div>
-                  <TopNewsSidebar data={[data[7],data[8],data[9],data[10],data[8]]}/>
+                  <TopNewsSidebar data={[data[7], data[8], data[9], data[10], data[8]]} />
                </div>
             </div>
          </section>

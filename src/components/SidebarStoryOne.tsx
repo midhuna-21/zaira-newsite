@@ -46,19 +46,19 @@ const story_data: DataType[] = [
 ]
 
 interface NewsData {
-    slug: string;
-    title: string;
-    category: string;
-    shortdescription: string;
-    description: string;
-    date: string;
-    image: string;
+   slug: string;
+   title: string;
+   category: string;
+   shortdescription: string;
+   description: string;
+   date: string;
+   image: string;
 }
 
 interface Props {
-    data: NewsData[];
+   data: NewsData[];
 }
-const StorySidebarOne:React.FC<Props> = ({data}) => {
+const StorySidebarOne: React.FC<Props> = ({ data }) => {
    return (
       <div className="sidebar-widget-three">
          <div className="widget-title widget-title-three mb-20">
@@ -69,11 +69,24 @@ const StorySidebarOne:React.FC<Props> = ({data}) => {
             {data.map((item) => (
                <div key={item.slug} className="stories-post">
                   <div className="stories-post-thumb">
-                     <Link href="/blog-details"><Image src={item.image} alt={item.title} width={200} height={200} /></Link>
+                     <Link
+                        href={`/${item.category}/${item.slug}`}
+                        title={item.slug}
+                        className="block w-full"
+                        style={{ color: "inherit" }}
+                     >
+                        <Image src={item.image} alt={item.title} width={200} height={200} /></Link>
                   </div>
                   <div className="stories-post-content">
-                     <Link href="/blog" className="post-tag-four">{item.category}</Link>
-                     <h5 className="post-title line-clamp-2"><Link href="/blog-details">{item.title}</Link></h5>
+                     <p className="post-tag-four">{item.category}</p>
+                     <h5 className="post-title line-clamp-2">
+                        <Link
+                           href={`/${item.category}/${item.slug}`}
+                           title={item.slug}
+                           className="block w-full"
+                           style={{ color: "inherit" }}
+                        >{item.title}
+                        </Link></h5>
                      <div className="blog-post-meta">
                         <ul className="list-wrap">
                            <li><i className="flaticon-calendar"></i>{item.date}</li>
