@@ -7,6 +7,8 @@ import usData from '../../../../public/data/us.json';
 import innovationData from '../../../../public/data/innovation.json';
 import investingData from '../../../../public/data/investing.json';
 import enterpriseData from '../../../../public/data/enterprise.json';
+import FooterThree from "@/layouts/footers/FooterThree";
+import HeaderSix from "@/layouts/headers/HeaderSix";
 
 export async function generateStaticParams() {
     const allData = [
@@ -44,7 +46,7 @@ interface DetailPageProps {
 
 const allData: Record<string, NewsItem[]> = {
     business: businessData,
-    usData: usData,
+    us: usData,
     innovation: innovationData,
     investing: investingData,
     enterprise: enterpriseData
@@ -54,33 +56,27 @@ const allData: Record<string, NewsItem[]> = {
 
 export default async function DetailPage({ params }: DetailPageProps) {
 
-   console.log(params,'params')
     const { category, slug } = await params;
-   console.log(slug,'params')
     const data = allData[category?.toLowerCase()];
 
-
     const article = data.find(item => item.slug === slug);
-    
+
     if (!article) {
-       return <div className="p-4">No article found for slug {slug}</div>;
-      }
-      
-      const otherArticles = data.filter(item => item.slug !== slug);
-      
-      // console.log(otherArticles,'otherArticles')
+        return <div className="p-4">No article found for slug {slug}</div>;
+    }
 
-   return (
-      <>
-         <HeaderOne />
-         <main className="fix">
-            {/* <Breadcrumbs page={} style={true} /> */}
-           <Breadcrumbs page={data[0].category} title={data[0].title} style={false} />
+    const otherArticles = data.filter(item => item.slug !== slug);
 
-            <BlogDetailsArea style={false} data={article} otherArticles={otherArticles}/>
-         </main>
-         <FooterOne style={false} style_2={true} />
-      </>
-   )
+    return (
+        <>
+             <HeaderSix />
+            <main className="fix">
+                {/* <Breadcrumbs page={} style={true} /> */}
+                <Breadcrumbs page={data[0].category} title={data[0].title} style={false} />
+                <BlogDetailsArea style={false} data={article} otherArticles={otherArticles} />
+            </main>
+            <FooterThree />
+        </>
+    )
 }
 

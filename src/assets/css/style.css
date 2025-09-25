@@ -1859,6 +1859,7 @@ label {
     background-size: 100% 2px;
 }
 .blog-post-meta.white-blog-meta .list-wrap li {
+    
     color: var(--tg-gray-two);
 }
 .blog-post-meta.white-blog-meta .list-wrap li a {
@@ -2475,7 +2476,7 @@ label {
     display: flex;
     align-items: center;
     color: var(--tg-icon-color);
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.52px;
@@ -6635,4 +6636,12 @@ label {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
+  .name a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px; /* thickness of underline */
+  text-underline-offset: 4px;    /* space between text and underline */
+  text-decoration-color: #292929;   /* optional: underline color */
+}
+
   

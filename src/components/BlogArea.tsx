@@ -17,6 +17,7 @@ interface NewsData {
   description: string;
   date: string;
   image: string;
+  author:string;
 }
 
 interface Props extends StyleType {
@@ -77,8 +78,15 @@ const BlogArea: React.FC<Props> = ({ style, data }) => {
                         >{item.title}</Link>
                       </h2>
                       <div className="blog-post-meta">
-                        <ul className="list-wrap">
-                          <li><i className="flaticon-calendar"></i>{item.date}</li>
+                       <ul className="list-wrap">
+                          <li>
+                            <i className="flaticon-user"></i> by{" "}
+                            <span>{item.author}</span>
+                          </li>
+                          <li>
+                            <i className="flaticon-calendar"></i>
+                            {item.date}
+                          </li>
                         </ul>
                       </div>
                       <p className="line-clamp-3">{item.shortdescription}</p>

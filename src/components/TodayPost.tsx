@@ -13,6 +13,8 @@ interface NewsData {
   description: string;
   date: string;
   image: string;
+  author:string;
+
 }
 
 interface Props {
@@ -54,7 +56,7 @@ const TodayPost: React.FC<Props> = ({ data }) => {
                     >{item.title}</Link></h2>
                     <div className="blog-post-meta">
                       <ul className="list-wrap">
-                        <li><i className="flaticon-user"></i>by<span>Admin</span></li>
+                        <li><i className="flaticon-user"></i>by<span>{item.author}</span></li>
                         <li><i className="flaticon-calendar"></i>{item.date}</li>
                       </ul>
                     </div>

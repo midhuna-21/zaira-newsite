@@ -11,6 +11,8 @@ interface NewsData {
    description: string;
    date: string;
    image: string;
+   author: string;
+
 }
 
 interface Props {
@@ -50,7 +52,7 @@ const PoliticsPost: React.FC<Props> = ({ data }) => {
                         </Link></h2>
                         <div className="blog-post-meta">
                            <ul className="list-wrap">
-                              <li><i className="flaticon-user"></i>by<span>Admin</span></li>
+                              <li><i className="flaticon-user"></i>by<span>{data[0].author}</span></li>
                               <li><i className="flaticon-calendar"></i>{data[0].date}</li>
                            </ul>
                         </div>

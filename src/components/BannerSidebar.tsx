@@ -23,11 +23,11 @@ const BannerSidebar:React.FC<Props> = ({data}) => {
       <div className="col-xl-3 col-lg-8">
          <div className="sidebar-wrap-three">
             <StorySidebarOne data={[data[0],data[1],data[2],data[3]]}/>
-            <div className="sidebar-widget-three">
+            {/* <div className="sidebar-widget-three">
                <div className="sidebar-img-two">
                   <Link href="#"><Image src={thumb_1} alt="" /></Link>
                </div>
-            </div>
+            </div> */}
             <SidebarStoryTwo data={[data[4],data[5],data[6],data[7],data[8]]}/>
          </div>
       </div>

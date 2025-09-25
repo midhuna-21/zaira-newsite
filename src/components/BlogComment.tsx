@@ -1,8 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import comment_1 from "@/assets/img/images/comment01.png";
-import comment_2 from "@/assets/img/images/comment02.png";
+import comment_1 from "../../public/images/jenna-collins.webp";
+import comment_2 from "../../public/images/ryan-caldwell.webp";
 
 const BlogComment = () => {
    return (
@@ -17,11 +17,11 @@ const BlogComment = () => {
                      </div>
                      <div className="comments-text">
                         <div className="avatar-name">
-                           <h6 className="name">Alebary keon</h6>
-                           <span className="date">27 August, 2024</span>
+                           <h6 className="name">Jenna Collins</h6>
+                           <span className="date">25 September, 2025</span>
                         </div>
-                        <p>Finanappreciate your trust greatly Our clients choose dentace ducts because know we are the best area Awaitingare really.</p>
-                        <Link href="#" className="reply-btn">Reply</Link>
+                        <p>Thanks for the detailed coverage! Really helps me understand what’s going on</p>
+                        {/* <Link href="#" className="reply-btn">Reply</Link> */}
                      </div>
                   </div>
                   <ul className="children">
@@ -32,11 +32,11 @@ const BlogComment = () => {
                            </div>
                            <div className="comments-text">
                               <div className="avatar-name">
-                                 <h6 className="name">Lukas Javeb</h6>
-                                 <span className="date">27 August, 2024</span>
+                                 <h6 className="name">Ryan Caldwell</h6>
+                                 <span className="date">25 September, 2025</span>
                               </div>
-                              <p>Finanappreciate your trust greatly Our clients choose dentace ducts because know we are the best area Awaitingare really.</p>
-                              <Link href="#" className="reply-btn">Reply</Link>
+                              <p>This is a really well-written article. I appreciate how clearly it explains the topic and backs up the information with facts.</p>
+                              {/* <Link href="#" className="reply-btn">Reply</Link> */}
                            </div>
                         </div>
                      </li>
@@ -44,6 +44,7 @@ const BlogComment = () => {
                </li>
             </ul>
          </div>
+         
       </div>
    )
 }

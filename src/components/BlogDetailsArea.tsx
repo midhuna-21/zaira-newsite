@@ -16,7 +16,7 @@ const BlogDetailsArea = ({ style, data,otherArticles}: any) => {
                   <div className={`col-70 ${style ? "order-0 order-xl-2" : ""}`}>
                      <div className="blog-details-wrap">
                         <BlogDetailsContent article={data}/>
-                        <BlogAvatar />
+                        <BlogAvatar article={data}/>
                         <BlogPrevNext otherArticles={[otherArticles[0],otherArticles[1]]}/>
                         <BlogComment />
                         <BlogForm />

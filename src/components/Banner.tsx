@@ -13,6 +13,7 @@ interface NewsData {
   description: string;
   date: string;
   image: string;
+  author:string;
 }
 
 interface Props {
@@ -20,10 +21,8 @@ interface Props {
 }
 
 const Banner: React.FC<Props> = ({ data }) => {
-  if (!data || data.length < 12) return null; // safety
-  console.log(data,'data')
+  if (!data || data.length < 12) return null; 
 
-  // break into ordered chunks
   const mainPost = data[0];
   const smallPosts = data.slice(1, 3);
   const politicsPosts = data.slice(3, 7);
@@ -68,7 +67,7 @@ const Banner: React.FC<Props> = ({ data }) => {
                         <ul className="list-wrap">
                           <li>
                             <i className="flaticon-user"></i> by{" "}
-                            <span>Admin</span>
+                            <span>{mainPost.author}</span>
                           </li>
                           <li>
                             <i className="flaticon-calendar"></i>
@@ -112,10 +111,14 @@ const Banner: React.FC<Props> = ({ data }) => {
                           </h2>
                           <div className="blog-post-meta">
                             <ul className="list-wrap">
-                              <li>
-                                <i className="flaticon-user"></i> by{" "}
-                                <span>Admin</span>
-                              </li>
+                               <li>
+                                                        <i className="flaticon-user"></i>
+                                                        by
+                                                        <span>
+                                                            {post.author}
+                                                        </span>
+                                                    </li>
+                                                        
                               <li>
                                 <i className="flaticon-calendar"></i>
                                 {post.date}
@@ -130,7 +133,7 @@ const Banner: React.FC<Props> = ({ data }) => {
               </div>
             </div>
 
-            <AdBanner />
+            {/* <AdBanner /> */}
             <PoliticsPost data={politicsPosts} />
             <TodayPost data={todayPosts} />
           </div>

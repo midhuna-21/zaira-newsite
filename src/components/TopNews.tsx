@@ -8,7 +8,6 @@ import AdBannerThree from "./AdBannerThree";
 import SportArea from "./SportArea";
 import TopNewsSidebar from "./TopNewsSidebar";
 
-import thumb_1 from "@/assets/img/blog/top_news_post01.jpg"
 
 interface NewsData {
    slug: string;
@@ -18,6 +17,7 @@ interface NewsData {
    description: string;
    date: string;
    image: string;
+   author: string;
 }
 
 interface Props {
@@ -25,8 +25,6 @@ interface Props {
 }
 
 const TopNews: React.FC<Props> = ({ data }) => {
-
-   const [isVideoOpen, setIsVideoOpen] = useState(false);
 
    return (
       <>
@@ -67,10 +65,16 @@ const TopNews: React.FC<Props> = ({ data }) => {
                                        {data[0].title}
                                     </Link></h2>
                                  <div className="blog-post-meta">
-                                    <ul className="list-wrap">
-                                       <li><i className="flaticon-calendar"></i>{data[0].category}</li>
-                                       <li><i className="flaticon-history"></i>20 Mins</li>
-                                    </ul>
+                                     <ul className="list-wrap">
+                          <li>
+                            <i className="flaticon-user"></i> by{" "}
+                            <span>{data[0].author}</span>
+                          </li>
+                          <li>
+                            <i className="flaticon-calendar"></i>
+                            {data[0].date}
+                          </li>
+                        </ul>
                                  </div>
                                  <p>{data[0].shortdescription}</p>
                                  <div className="view-all-btn">
@@ -115,7 +119,7 @@ const TopNews: React.FC<Props> = ({ data }) => {
                            </div>
                         ))}
                      </div>
-                     <AdBannerThree />
+                     {/* <AdBannerThree /> */}
                      <SportArea data={[data[4], data[5], data[6], data[7], data[8]]} />
                   </div>
                   <TopNewsSidebar data={[data[9], data[10], data[11]]} />

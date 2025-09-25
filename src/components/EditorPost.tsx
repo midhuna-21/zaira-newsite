@@ -57,6 +57,7 @@ interface NewsData {
    description: string;
    date: string;
    image: string;
+   author: string;
 }
 
 interface Props {
@@ -79,7 +80,6 @@ const EditorPost: React.FC<Props> = ({ data }) => {
       }
    };
 
-   const [isVideoOpen, setIsVideoOpen] = useState(false);
 
    return (
       <>
@@ -126,9 +126,15 @@ const EditorPost: React.FC<Props> = ({ data }) => {
                                  >{item.title}</Link></h2>
                               <div className="blog-post-meta">
                                  <ul className="list-wrap">
-                                    <li><i className="flaticon-calendar"></i>{item.date}</li>
-                                    {/* <li><i className="flaticon-history"></i>{item.time}</li> */}
-                                 </ul>
+                          <li>
+                            <i className="flaticon-user"></i> by{" "}
+                            <span>{item.author}</span>
+                          </li>
+                          <li>
+                            <i className="flaticon-calendar"></i>
+                            {item.date}
+                          </li>
+                        </ul>
                               </div>
                            </div>
                         </div>

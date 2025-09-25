@@ -12,6 +12,7 @@ interface NewsData {
    description: string;
    date: string;
    image: string;
+   author: string;
 }
 
 interface Props {
@@ -48,7 +49,14 @@ const SportArea: React.FC<Props> = ({ data }) => {
                      >{data[0].title}</Link></h4>
                      <div className="blog-post-meta">
                         <ul className="list-wrap">
-                           <li><i className="flaticon-calendar"></i>{data[0].date}</li>
+                          <li>
+                            <i className="flaticon-user"></i> by{" "}
+                            <span>{data[0].author}</span>
+                          </li>
+                          <li>
+                            <i className="flaticon-calendar"></i>
+                            {data[0].date}
+                          </li>
                         </ul>
                      </div>
                   </div>

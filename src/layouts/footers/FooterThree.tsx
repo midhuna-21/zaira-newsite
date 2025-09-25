@@ -18,7 +18,7 @@ const FooterThree = () => {
                               <Link href="/"><Image src={footerLogo} alt="" /></Link>
                            </div>
                            <div className="footer-content">
-                              <p>Browned butter and brown sugar caramelly goodness, crispy edges thick and soft centers and melty little puddles of chocolate.</p>
+                              <p>Keeping you informed with reliable reporting and perspectives that shape conversations across the nation.</p>
                            </div>
                         </div>
                      </div>
@@ -29,7 +29,7 @@ const FooterThree = () => {
                               <div className="footer-link-wrap">
                                  <ul className="list-wrap">
                                     {item.footer_link.map((link, i) => (
-                                       <li key={i}><Link href="#">{link.title}</Link></li>
+                                       <li key={i}><Link href={link.link}>{link.title}</Link></li>
                                     ))}
                                  </ul>
                               </div>
@@ -47,13 +47,13 @@ const FooterThree = () => {
                         <div className="footer-bottom-menu">
                            <ul className="list-wrap">
                               <li><Link href="/contact">Privacy Policy & Terms</Link></li>
-                              <li><Link href="/contact">Site Credits</Link></li>
+                              {/* <li><Link href="/contact">Site Credits</Link></li> */}
                            </ul>
                         </div>
                      </div>
                      <div className="col-md-6">
                         <div className="copyright-text">
-                           <p>© 2024 All Rights Reserved</p>
+                           <p>© 2025 All Rights Reserved</p>
                         </div>
                      </div>
                   </div>

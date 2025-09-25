@@ -16,6 +16,8 @@ interface NewsData {
   description: string;
   date: string;
   image: string;
+  author:string;
+
 }
 
 interface Props {
@@ -41,7 +43,7 @@ const secondPart = sentences.slice(insertIndex).join(" ");
                <div className="bd-content-inner">
                   <div className="blog-post-meta">
                      <ul className="list-wrap">
-                        <li><i className="flaticon-user"></i>by<Link href="/author">Admin</Link></li>
+                        <li><i className="flaticon-user"></i>by<Link href="/author">{article.author}</Link></li>
                         <li><i className="flaticon-calendar"></i>{article.date}</li>
                         {/* <li><i className="flaticon-chat"></i><Link href="/blog-details">05 Comments</Link></li> */}
                         {/* <li><i className="flaticon-history"></i>20 Mins</li> */}

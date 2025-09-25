@@ -5,6 +5,7 @@ import Image from "next/image"
 import Link from "next/link";
 
 import sidebarThumb from "@/assets/img/blog/blog_rc_post.jpg";
+import NewsletterSubscribe from "@/components/NewsletterSubscribe";
 
 interface NewsData {
   slug: string;
@@ -110,25 +111,7 @@ const BlogSidebar:React.FC<Props> = ({otherArticles}) => {
                   </div>
                </div>
             </div>
-            <div className="sidebar-widget sidebar-widget-two">
-               <div className="sidebar-newsletter">
-                  <div className="icon"><i className="flaticon-envelope"></i></div>
-                  <h4 className="title">Daily Newsletter</h4>
-                  <p>Get all the top stories from Blogs to keep track.</p>
-                  <div className="sidebar-newsletter-form-two">
-                     <form onSubmit={(e) => e.preventDefault()}>
-                        <div className="form-grp">
-                           <input type="text" placeholder="Enter your e-mail" />
-                           <button type="submit" className="btn">Subscribe Now</button>
-                        </div>
-                        <div className="form-check">
-                           <input type="checkbox" className="form-check-input" id="checkbox" />
-                           <label htmlFor="checkbox">I agree to the terms & conditions</label>
-                        </div>
-                     </form>
-                  </div>
-               </div>
-            </div>
+            <NewsletterSubscribe/>
          </div>
       </div>
    )

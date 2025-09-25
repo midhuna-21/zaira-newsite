@@ -10,6 +10,9 @@ import enterpriseData from "../../../public/data/enterprise.json";
 import innovationData from "../../../public/data/innovation.json";
 import investingData from "../../../public/data/investing.json";
 import { Metadata } from "next";
+import FooterThree from "@/layouts/footers/FooterThree";
+import HeaderSix from "@/layouts/headers/HeaderSix";
+import Newsletter from "@/components/Newsletter";
 
 interface NewsItem {
     category: string;
@@ -19,6 +22,7 @@ interface NewsItem {
     image: string;
     slug: string;
     date: string;
+    author:string;
 }
 
 const allData: Record<string, NewsItem[]> = {
@@ -136,14 +140,14 @@ export default async function CategoryPage({
 
     return (
         <>
-            <HeaderOne />
+               <HeaderSix />
             <main className="fix">
               <Breadcrumbs page={data[0].category} style={false} />
 
                 <BlogArea style={true} data={data}/>
-                <FooterNews />
+                <Newsletter />
             </main>
-            <FooterOne style={false} style_2={true} />
+            <FooterThree />
         </>
     );
 }
