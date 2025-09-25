@@ -86,7 +86,7 @@ const TopNews: React.FC<Props> = ({ data }) => {
                               </div>
                            </div>
                         </div>
-                        {data.slice(0, 3).map((item) => (
+                        {data.slice(1, 4).map((item) => (
                            <div key={item.slug} className="col-lg-4">
                               <div className="horizontal-post-four">
                                  <div className="horizontal-post-thumb-four">
@@ -118,7 +118,7 @@ const TopNews: React.FC<Props> = ({ data }) => {
                      <AdBannerThree />
                      <SportArea data={[data[4], data[5], data[6], data[7], data[8]]} />
                   </div>
-                  <TopNewsSidebar data={[data[7], data[8], data[9], data[10], data[8]]} />
+                  <TopNewsSidebar data={[data[9], data[10], data[11]]} />
                </div>
             </div>
          </section>

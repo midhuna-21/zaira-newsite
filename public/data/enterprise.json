@@ -7,7 +7,10 @@
     "image": "/images/how-to-pitch-investors-in-five-steps.webp",
     "slug": "how-to-pitch-investors-in-five-steps",
     "date": "10th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   },
   {
@@ -18,7 +21,10 @@
     "image": "/images/from-prototype-to-market-scaling-strategies-that-work.webp",
     "slug": "from-prototype-to-market-scaling-strategies-that-work",
     "date": "10th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "enterprise",
@@ -28,7 +34,10 @@
     "image": "/images/founder-stories-learning-from-first-time-entrepreneurs.webp",
     "slug": "founder-stories-learning-from-first-time-entrepreneurs",
     "date": "10th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -39,7 +48,10 @@
     "image": "/images/the-biggest-mistakes-in-startup-pitches-and-how-to-avoid-them.webp",
     "slug": "the-biggest-mistakes-in-startup-pitches-and-how-to-avoid-them",
     "date": "10th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "enterprise",
@@ -49,7 +61,10 @@
     "image": "/images/checklists-for-startup-growth.webp",
     "slug": "checklists-for-startup-growth",
     "date": "10th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   },
   {
@@ -60,7 +75,10 @@
     "image": "/images/nba-timberwolves-sale-lore-rodriguez.webp",
     "slug": "nba-timberwolves-lynx-sale-lore-rodriguez",
     "date": "10th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "enterprise",
@@ -70,7 +88,10 @@
     "image": "/images/rfk-jr-adviser-wellness-platform.webp",
     "slug": "rfk-jr-adviser-financial-ties-wellness-platform",
     "date": "10th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "enterprise",
@@ -80,7 +101,10 @@
     "image": "/images/rangers-fc-us-consortium-49ers.webp",
     "slug": "rangers-fc-us-consortium-49ers-majority-stake",
     "date": "10th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -91,7 +115,10 @@
     "image": "/images/georgia-tech-commencement-startup.webp",
     "slug": "georgia-tech-commencement-startup-incorporation-costs",
     "date": "10th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   },
   {
@@ -102,7 +129,10 @@
     "image": "/images/kauai-ag-land-sale.webp",
     "slug": "kauai-ag-land-sale-hawaii-food-initiative",
     "date": "10th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "enterprise",
@@ -112,7 +142,10 @@
     "image": "/images/argentina-milei-crypto-scandal.webp",
     "slug": "argentina-milei-crypto-meme-coin-scandal",
     "date": "10th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -123,7 +156,10 @@
     "image": "/images/wall-street-record-high.webp",
     "slug": "wall-street-record-high-sp500-gain",
     "date": "10th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "enterprise",
@@ -133,7 +169,10 @@
     "image": "/images/financial-advisor-high-net-worth.webp",
     "slug": "find-financial-advisor-high-net-worth",
     "date": "10th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   },
   {
@@ -144,7 +183,10 @@
     "image": "/images/deepseek-founder-ai-hedgefund.webp",
     "slug": "deepseek-founder-hedgefund-to-ai-success",
     "date": "10th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -155,7 +197,10 @@
     "image": "/images/carlos-watson-ozy-media.webp",
     "slug": "carlos-watson-ozy-media-sentence",
     "date": "10th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "enterprise",
@@ -165,7 +210,10 @@
     "image": "/images/crypto-entrepreneur-banana-art.webp",
     "slug": "crypto-entrepreneur-eats-6200000-banana-art",
     "date": "10th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   },
   {
@@ -176,7 +224,10 @@
     "image": "/images/local-news-digital-growth.webp",
     "slug": "local-news-decline-digital-growth-us",
     "date": "10th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -187,7 +238,10 @@
     "image": "/images/cocoa-chocolate-alternatives.webp",
     "slug": "cocoa-chocolate-alternatives-climate-innovation",
     "date": "10th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "enterprise",
@@ -197,7 +251,10 @@
     "image": "/images/billionaires-college-education.webp",
     "slug": "billionaires-college-education-wealth",
     "date": "10th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -208,7 +265,10 @@
     "image": "/images/celebrity-crypto-fraud.webp",
     "slug": "celebrity-crypto-entrepreneur-fraud-charges",
     "date": "10th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   }
 ]

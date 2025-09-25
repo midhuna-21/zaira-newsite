@@ -57,36 +57,53 @@ const BlogSidebar:React.FC<Props> = ({otherArticles}) => {
                         <Link href="/blog-details"><Image src={otherArticles[0].image} alt={otherArticles[0].title} width={200} height={200} /></Link>
                      </div>
                      <div className="hot-post-content">
-                        <Link href="/blog" className="post-tag">{otherArticles[0].category}</Link>
-                        <h4 className="post-title"><Link href="/blog-details">{otherArticles[0].title}</Link></h4>
+                        {/* <Link href="/blog" className="post-tag">{otherArticles[0].category}</Link> */}
+                        <h4 className="post-title">
+                           <Link
+                          href={`/${otherArticles[0].category}/${otherArticles[0].slug}`}
+                          title={otherArticles[0].slug}
+                          className="block w-full"
+                          style={{ color: "inherit" }}
+                        >{otherArticles[0].title}</Link></h4>
                         <div className="blog-post-meta">
                            <ul className="list-wrap">
                               <li><i className="flaticon-calendar"></i>{otherArticles[0].date}</li>
-                              <li><i className="flaticon-history"></i>20 Mins</li>
+                              {/* <li><i className="flaticon-history"></i>20 Mins</li> */}
                            </ul>
                         </div>
                      </div>
                   </div>
                   <div className="hot-post-item">
                      <div className="hot-post-content">
-                        <Link href="/blog" className="post-tag">{otherArticles[1].category}</Link>
-                        <h4 className="post-title"><Link href="/blog-details">{otherArticles[1].title}</Link></h4>
+                        {/* <Link href="/blog" className="post-tag">{otherArticles[1].category}</Link> */}
+                        <h4 className="post-title">
+                           <Link
+                          href={`/${otherArticles[1].category}/${otherArticles[1].slug}`}
+                          title={otherArticles[1].slug}
+                          className="block w-full"
+                          style={{ color: "inherit" }}
+                        >{otherArticles[1].title}</Link></h4>
                         <div className="blog-post-meta">
                            <ul className="list-wrap">
                               <li><i className="flaticon-calendar"></i>{otherArticles[1].date}</li>
-                              <li><i className="flaticon-history"></i>20 Mins</li>
+                              {/* <li><i className="flaticon-history"></i>20 Mins</li> */}
                            </ul>
                         </div>
                      </div>
                   </div>
                   <div className="hot-post-item">
                      <div className="hot-post-content">
-                        <Link href="/blog" className="post-tag">{otherArticles[2].category}</Link>
-                        <h4 className="post-title"><Link href="/blog-details">{otherArticles[2].title}</Link></h4>
+                        {/* <Link href="/blog" className="post-tag">{otherArticles[2].category}</Link> */}
+                        <h4 className="post-title"> <Link
+                          href={`/${otherArticles[2].category}/${otherArticles[2].slug}`}
+                          title={otherArticles[2].slug}
+                          className="block w-full"
+                          style={{ color: "inherit" }}
+                        >{otherArticles[2].title}</Link></h4>
                         <div className="blog-post-meta">
                            <ul className="list-wrap">
                               <li><i className="flaticon-calendar"></i>{otherArticles[2].date}</li>
-                              <li><i className="flaticon-history"></i>20 Mins</li>
+                              {/* <li><i className="flaticon-history"></i>20 Mins</li> */}
                            </ul>
                         </div>
                      </div>

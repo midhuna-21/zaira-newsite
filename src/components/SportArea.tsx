@@ -39,7 +39,7 @@ const SportArea: React.FC<Props> = ({ data }) => {
                      ><Image src={data[0].image} alt={data[0].title} width={200} height={200} /></Link>
                   </div>
                   <div className="sports-post-content">
-                     <p className="post-tag-four">{data[0].category}</p>
+                     {/* <p className="post-tag-four">{data[0].category}</p> */}
                      <h4 className="post-title bold-underline"> <Link
                         href={`/${data[0].category}/${data[0].slug}`}
                         title={data[0].slug}
@@ -68,7 +68,7 @@ const SportArea: React.FC<Props> = ({ data }) => {
                            ><Image src={item.image} alt={item.title} width={200} height={200} /></Link>
                         </div>
                         <div className="horizontal-post-content-four">
-                           <p className="post-tag-four">{item.category}</p>
+                           {/* <p className="post-tag-four">{item.category}</p> */}
                            <h4 className="post-title line-clamp-2"> <Link
                               href={`/${item.category}/${item.slug}`}
                               title={item.slug}

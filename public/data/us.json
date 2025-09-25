@@ -7,7 +7,10 @@
     "image": "/images/iryna-zarutska-charlotte-train-incident.webp",
     "slug": "man-faces-federal-charges-in-fatal-stabbing-of-ukrainian-woman-on-charlotte-light-rail",
     "date": "10th September 2025",
-    "author": "David Miller"
+    "author": "David Miller",
+      "role":"",
+    "authorImage":""
+
   },
   {
     "category": "us",
@@ -17,7 +20,10 @@
     "image": "/images/national-park-service-signage-review.webp",
     "slug": "national-park-employees-flag-materials-deemed-disparaging-to-us-history",
     "date": "10th September 2025",
-    "author": "Daniel Ruiz"
+    "author": "Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
   },
   {
     "category": "us",
@@ -27,7 +33,10 @@
     "image": "/images/korean-workers-detained-georgia-raid.webp",
     "slug": "korean-workers-detained-georgia-raid-return-home-fear-lingers",
     "date": "10th September 2025",
-    "author": "Lauren Jacobs"
+    "author": "Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "us",
@@ -37,7 +46,10 @@
     "image": "/images/kilmar-abrego-garcia-asylum-deportation.webp",
     "slug": "kilmar-abrego-garcia-seeks-asylum-amidst-renewed-deportation-efforts",
     "date": "10th September 2025",
-    "author": "Daniel Ruiz"
+    "author": "Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
   },
   {
     "category": "us",
@@ -47,7 +59,10 @@
     "image": "/images/michigan-fake-electors-case-dismissal.webp",
     "slug": "michigan-dismissal-highlights-challenges-in-prosecuting-2020-fake-electors",
     "date": "10th September 2025",
-    "author": "Lauren Jacobs"
+    "author": "Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "us",
@@ -57,7 +72,10 @@
     "image": "/images/alligator-alcatraz-detention-center.webp",
     "slug": "desantis-steps-toward-victory-alligator-alcatraz-funding-dilemma",
     "date": "10th September 2025",
-    "author": "Lauren Jacobs"
+    "author": "Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "us",
@@ -67,7 +85,10 @@
     "image": "/images/tropical-storm-kiko-hawaii-surf.webp",
     "slug": "tropical-storm-kiko-weakens-dangerous-surf-hawaii",
     "date": "10th September 2025",
-    "author": "David Miller"
+    "author": "David Miller",
+      "role":"",
+    "authorImage":""
+
   },
   {
     "category": "us",
@@ -77,7 +98,10 @@
     "image": "/images/texas-abortion-pill-law.webp",
     "slug": "texas-lawmakers-approve-bill-allowing-private-citizens-to-sue-abortion-pill-providers",
     "date": "10th September 2025",
-    "author": "Daniel Ruiz"
+    "author": "Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
   },
   {
     "category": "us",
@@ -87,7 +111,10 @@
     "image": "/images/hamtramck-pride-flag-ban.webp",
     "slug": "federal-judge-upholds-hamtramcks-ban-on-pride-flags-on-public-property",
     "date": "10th September 2025",
-    "author": "Lauren Jacobs"
+    "author": "Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "us",
@@ -97,7 +124,10 @@
     "image": "/images/latoya-cantrell-court.webp",
     "slug": "new-orleans-mayor-cantrell-court-appearance-corruption-charges",
     "date": "10th September 2025",
-    "author": "Daniel Ruiz"
+    "author": "Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
   },
   {
     "category": "us",
@@ -107,7 +137,10 @@
     "image": "/images/roswell-air-races-2025.webp",
     "slug": "national-championship-air-races-roswell-2025",
     "date": "10th September 2025",
-    "author": "Lauren Jacobs"
+    "author": "Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "finance",
@@ -117,7 +150,10 @@
     "image": "/images/asian-stocks-rise-wall-street-record.webp",
     "slug": "asian-shares-rise-wall-street-record",
     "date": "10th September 2025",
-    "author": "David Miller"
+    "author": "David Miller",
+      "role":"",
+    "authorImage":""
+
   },
   {
     "category": "us",
@@ -127,7 +163,10 @@
     "image": "/images/boston-childrens-hospital.webp",
     "slug": "judge-blocks-trump-subpoena-trans-kids-medical-records-boston-hospital",
     "date": "10th September 2025",
-    "author": "Lauren Jacobs"
+    "author": "Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "us",
@@ -137,7 +176,10 @@
     "image": "/images/trump-dc-law-enforcement.webp",
     "slug": "trump-dines-at-restaurant-near-white-house-to-promote-federal-law-enforcement-surge-in-dc",
     "date": "10th September 2025",
-    "author": "Daniel Ruiz"
+    "author": "Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
   },
   {
     "category": "us",
@@ -147,7 +189,10 @@
     "image": "/images/uk-us-tech-deal-trumps-visit.webp",
     "slug": "uk-us-tech-deal-trumps-visit",
     "date": "13th September 2025",
-    "author": "Lauren Jacobs"
+    "author": "Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "us",
@@ -157,7 +202,10 @@
     "image": "/images/noem-border-security.webp",
     "slug": "secretary-noem-trump-delivered-border-security",
     "date": "14th September 2025",
-    "author": "Lauren Jacobs"
+    "author": "Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "us",
@@ -167,7 +215,10 @@
     "image": "/images/pentagon-plans-1000-national-guard-troops-louisiana-policing.webp",
     "slug": "pentagon-plans-1000-guard-troops-louisiana-policing",
     "date": "13th September 2025",
-    "author": "David Miller"
+    "author": "David Miller",
+      "role":"",
+    "authorImage":""
+
   },
   {
     "category": "us",
@@ -177,7 +228,10 @@
     "image": "/images/dc-crime-emergency-arrests.webp",
     "slug": "analysis-of-arrests-trump-dc-crime-emergency",
     "date": "14th September 2025",
-    "author": "Daniel Ruiz"
+    "author": "Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
   },
   {
     "category": "us",
@@ -187,7 +241,10 @@
     "image": "/images/fbi-director-kash-patel-charlie-kirk-response.webp",
     "slug": "fbi-director-kash-patel-faces-far-right-backlash-over-charlie-kirk-killing-response",
     "date": "14th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "us",
@@ -197,7 +254,10 @@
     "image": "/images/delta-flight-turbulence-ntsb.webp",
     "slug": "ntsb-describes-severe-turbulence-delta-flight-injured-passengers",
     "date": "10th September 2025",
-    "author": "Daniel Ruiz"
+    "author": "Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
   },
   {
     "category": "us",
@@ -207,7 +267,10 @@
     "image": "/images/garnet-fire-sequoia-california.webp",
     "slug": "garnet-fire-threatens-ancient-sequoia-grove-sierra-national-forest",
     "date": "10th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "us",
@@ -217,7 +280,10 @@
     "image": "/images/nevada-inmate-death-settlement.webp",
     "slug": "nevada-settlement-walker-death-4-6-million",
     "date": "10th September 2025",
-    "author": "David Miller"
+    "author": "David Miller",
+      "role":"",
+    "authorImage":""
+
   },
   {
     "category": "us",
@@ -227,7 +293,10 @@
     "image": "/images/queens-double-homicide-manhunt.webp",
     "slug": "manhunt-underway-queens-double-homicide-arson",
     "date": "10th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "us",
@@ -237,7 +306,10 @@
     "image": "/images/charlie-kirk-trump-erika.webp",
     "slug": "trump-death-penalty-charlie-kirk-widow-legacy",
     "date": "14th September 2025",
-    "author": "Daniel Ruiz"
+    "author": "Daniel Ruiz",
+    "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
   },
   {
     "category": "us",
@@ -247,7 +319,9 @@
     "image": "/images/us-lawmakers-china-visit.webp",
     "slug": "us-lawmakers-first-china-visit-since-2019",
     "date": "14th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+    "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
   },
   {
     "category": "us",
@@ -257,6 +331,8 @@
     "image": "/images/trump-kirk-backlash.webp",
     "slug": "trump-news-kirk-critics-lose-jobs-after-killing",
     "date": "14th September 2025",
-    "author": "David Miller"
+    "author": "David Miller",
+    "role":"",
+    "authorImage":""
   }
 ]

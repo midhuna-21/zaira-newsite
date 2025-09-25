@@ -62,7 +62,7 @@ const BlogSidebar: React.FC<Props> = ({ data }) => {
                         ><Image src={data[0].image} alt={data[0].title} width={200} height={200} /></Link>
                      </div>
                      <div className="hot-post-content">
-                        <p className="post-tag">{data[0].category}</p>
+                        {/* <p className="post-tag">{data[0].category}</p> */}
                         <h4 className="post-title">
                            <Link
                               href={`/${data[0].category}/${data[0].slug}`}
@@ -80,7 +80,7 @@ const BlogSidebar: React.FC<Props> = ({ data }) => {
                   </div>
                   <div className="hot-post-item">
                      <div className="hot-post-content">
-                        <p className="post-tag">{data[1].category}</p>
+                        {/* <p className="post-tag">{data[1].category}</p> */}
                         <h4 className="post-title"> <Link
                            href={`/${data[1].category}/${data[1].slug}`}
                            title={data[1].slug}
@@ -97,7 +97,7 @@ const BlogSidebar: React.FC<Props> = ({ data }) => {
                   </div>
                   <div className="hot-post-item">
                      <div className="hot-post-content">
-                        <p className="post-tag">{data[2].category}</p>
+                        {/* <p className="post-tag">{data[2].category}</p> */}
                         <h4 className="post-title"> <Link
                            href={`/${data[2].category}/${data[2].slug}`}
                            title={data[2].slug}

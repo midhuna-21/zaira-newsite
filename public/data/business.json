@@ -7,7 +7,9 @@
     "image": "/images/france-protests-arrests.webp",
     "slug": "france-protests-arrests-new-pm",
     "date": "10th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+    "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
 
   },
   {
@@ -18,7 +20,10 @@
     "image": "/images/novo-nordisk-job-cuts.webp",
     "slug": "novo-nordisk-job-cuts-obesity-diabetes",
     "date": "10th September 2025",
-     "author":"Lauren Jacobs"
+     "author":"Lauren Jacobs",
+       "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
 
     
   },
@@ -30,7 +35,10 @@
     "image": "/images/global-shares-wall-street-rally.webp",
     "slug": "global-shares-rise-wall-street-rally",
     "date": "9th September 2025",
-     "author":"Lauren Jacobs"
+     "author":"Lauren Jacobs",
+       "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
 
   },
   {
@@ -41,7 +49,10 @@
     "image": "/images/south-korea-us-workers-raid.webp",
     "slug": "south-korea-us-workers-immigration-raid",
     "date": "9th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
   },
   {
     "category": "business",
@@ -51,7 +62,10 @@
     "image": "/images/lisa-cook-fed-governor.webp",
     "slug": "lisa-cook-fed-court-ruling",
     "date": "9th September 2025",
-     "author":"Lauren Jacobs"
+     "author":"Lauren Jacobs",
+       "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
 
   },
   {
@@ -62,7 +76,10 @@
     "image": "/images/trump-us-allies-china.webp",
     "slug": "trump-policies-strain-us-allies-china",
     "date": "9th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   },
   {
@@ -73,7 +90,10 @@
     "image": "/images/klarna-ipo-40.webp",
     "slug": "klarna-ipo-40bnpl-15billion",
     "date": "9th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   },
   {
@@ -84,7 +104,10 @@
     "image": "/images/trump-tariffs-us-china.webp",
     "slug": "trump-tariffs-impact-us-china-sales",
     "date": "9th September 2025",
-     "author":"Lauren Jacobs"
+     "author":"Lauren Jacobs",
+       "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
 
   },
   {
@@ -95,7 +118,10 @@
     "image": "/images/delta-flight-turbulence.webp",
     "slug": "ntsbturbulence-delta-flight-report",
     "date": "9th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   },
   {
@@ -106,7 +132,10 @@
     "image": "/images/un-poverty-investment.webp",
     "slug": "un-chief-invest-poverty-security",
     "date": "9th September 2025",
-     "author":"Lauren Jacobs"
+     "author":"Lauren Jacobs",
+       "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
 
   },
   {
@@ -117,7 +146,10 @@
     "image": "/images/foreign-aid-freeze.webp",
     "slug": "roberts-trump-foreign-aid-freeze",
     "date": "9th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -128,7 +160,10 @@
     "image": "/images/alex-jones-sandy-hook-appeal.webp",
     "slug": "alex-jones-supreme-court-appeal-sandy-hook",
     "date": "9th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   },
   {
@@ -139,7 +174,10 @@
     "image": "/images/long-beach-port-containers.webp",
     "slug": "long-beach-port-containers-fall",
     "date": "9th September 2025",
-     "author":"Lauren Jacobs"
+     "author":"Lauren Jacobs",
+       "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
 
   },
   {
@@ -150,7 +188,10 @@
     "image": "/images/korean-workers-us-raid.webp",
     "slug": "south-korea-us-workers-repatriation",
     "date": "9th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -161,7 +202,10 @@
     "image": "/images/supreme-court-trump-tariffs.webp",
     "slug": "supreme-court-trump-tariffs-authority",
     "date": "9th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   },
   {
@@ -172,7 +216,10 @@
     "image": "/images/apple-iphone-17-air.webp",
     "slug": "apple-iphone-17-lineup-air",
     "date": "9th September 2025",
-     "author":"Lauren Jacobs"
+     "author":"Lauren Jacobs",
+       "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
 
   },
   {
@@ -183,7 +230,10 @@
     "image": "/images/nashville-drone-attack.webp",
     "slug": "nashville-drone-power-substation-guilty",
     "date": "9th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -194,7 +244,10 @@
     "image": "/images/aroldis-chapman-red-sox-contract.webp",
     "slug": "aroldis-chapman-red-sox-2026-contract",
     "date": "9th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   },
   {
@@ -205,7 +258,10 @@
     "image": "/images/us-steel-illinois-plant.webp",
     "slug": "us-steel-illinois-plant-production-halt",
     "date": "9th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   },
   {
@@ -216,7 +272,10 @@
     "image": "/images/ny-snack-bar-raid.webp",
     "slug": "ny-snack-bar-plant-raid-57-detained",
     "date": "9th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -227,7 +286,10 @@
     "image": "/images/katseye-gap-viral.webp",
     "slug": "katseye-gap-ad-viral-success",
     "date": "9th September 2025",
-     "author":"Lauren Jacobs"
+     "author":"Lauren Jacobs",
+       "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "business",
@@ -237,7 +299,10 @@
     "image": "/images/cbs-news-ombudsman.webp",
     "slug": "cbs-news-ombudsman-kenneth-weinstein",
     "date": "9th September 2025",
-     "author":"Lauren Jacobs"
+     "author":"Lauren Jacobs",
+       "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
 
   }
 ]

@@ -7,6 +7,7 @@ import img_1 from "@/assets/img/icon/trending_icon.svg"
 import img_2 from "@/assets/img/logo/logo.png"
 import img_3 from "@/assets/img/logo/w_logo.png"
 import { useEffect, useState } from "react";
+import business from '../../../../public/data/business.json';
 
 const setting = {
    slidesPerView: 1,
@@ -24,7 +25,7 @@ const HeaderTopSix = () => {
    const [currentDate, setCurrentDate] = useState('');
 
    useEffect(() => {
-      const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' } as const; // Specify type explicitly
+      const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' } as const; 
       const today = new Date().toLocaleDateString('en-US', dateOptions);
       setCurrentDate(today);
    }, []);
@@ -53,10 +54,10 @@ const HeaderTopSix = () => {
                         </div>
                         <div className="swiper-container ta-trending-slider">
                            <Swiper direction={'vertical'} {...setting} modules={[Autoplay]} className="swiper-wrapper">
-                              {header_slider.map((item, i) => (
+                              {business.map((item, i) => (
                                  <SwiperSlide key={i} className="swiper-slide">
                                     <div className="trending-content">
-                                       <Link href="/blog-details">{item}</Link>
+                                       <Link href="/blog-details">{item.title}</Link>
                                     </div>
                                  </SwiperSlide>
                               ))}
@@ -100,9 +101,9 @@ const HeaderTopSix = () => {
                         <div className="sign-in">
                            <Link href="/contact"><i className="flaticon-user"></i>Sign In</Link>
                         </div>
-                        <div className="subscribe-btn">
+                        {/* <div className="subscribe-btn">
                            <Link href="/contact" className="btn btn-two">Subscribe</Link>
-                        </div>
+                        </div> */}
                      </div>
                   </div>
                </div>

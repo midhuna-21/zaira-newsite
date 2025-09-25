@@ -7,7 +7,10 @@
     "image": "/images/innovation-clusters-in-emerging-markets.webp",
     "slug": "innovation-clusters-in-emerging-markets",
     "date": "10th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   },
   {
@@ -18,7 +21,10 @@
     "image": "/images/how-technology-is-redefining-traditional-industries.webp",
     "slug": "how-technology-is-redefining-traditional-industries",
     "date": "10th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -29,7 +35,25 @@
     "image": "/images/underrepresented-entrepreneurs-driving-change.webp",
     "slug": "underrepresented-entrepreneurs-driving-change",
     "date": "10th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
+
+  },
+
+  {
+    "category": "innovation",
+    "title": "Webb Telescope Identifies Atmosphere on Possibly Habitable Exoplanet TRAPPIST-1e",
+    "shortdescription": "NASA's James Webb Space Telescope has observed indications of an atmosphere on TRAPPIST-1e, which is considered a potentially habitable exoplanet. ",
+    "description": "The James Webb Space Telescope has found signs of an atmosphere on TRAPPIST-1e, one of the most promising exoplanets in the search for extraterrestrial life. TRAPPIST-1e is located approximately 40 light-years from Earth, and is considered an excellent candidate for habitability due to its Earth-like size and rocky composition and because it has an orbit in its star's habitable zone. The detection of atmospheric elements will allow scientists to investigate the climate of the planet, the possibility of water, and whether the planet is habitable for life. Researchers expect follow-up observations will provide additional detail to characterize the planet's chemical composition, including its potential weather and biosignatures. This finding improves knowledge of exoplanet atmospheres and gives astronomers the ability to contrast TRAPPIST-1e's atmosphere with that of Earth and the other planets in the TRAPPIST-1 system. Experts believe studying the atmospheres of nearby exoplanets is critical to determine if they can sustain life, as well as planning future exploratory missions. The results underscore the Webb Telescope's far-reaching ability to investigate distant worlds, broaden understanding of planetary systems, and encourage further inquiry about the origins and distribution of life in our universe. In addition, this discovery is anticipated to inform future missions targeting atmospheric characterization and may remain central to a search for technologically advanced civilizations, thereby securing TRAPPIST-1e as a focus of astrobiology research.",
+    "image": "/images/trappist-1e-atmosphere.webp",
+    "slug": "webb-telescope-trappist-1e-atmosphere",
+    "date": "10th September 2025",
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -40,7 +64,10 @@
     "image": "/images/building-ecosystems-role-of-accelerators-incubators.webp",
     "slug": "building-ecosystems-role-of-accelerators-and-incubators",
     "date": "10th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -51,7 +78,10 @@
     "image": "/images/global-success-stories-startups-that-scaled-against-the-odds.webp",
     "slug": "global-success-stories-startups-that-scaled-against-the-odds",
     "date": "10th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   },
   {
@@ -62,7 +92,10 @@
     "image": "/images/superconducting-tapes-fusion.webp",
     "slug": "superconducting-tapes-leap-fusion-energy",
     "date": "8th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -73,7 +106,10 @@
     "image": "/images/european-hydrogen-bank.webp",
     "slug": "european-hydrogen-bank-more-than-subsidy",
     "date": "8th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "innovation",
@@ -83,7 +119,10 @@
     "image": "/images/plastic-co2-capture.webp",
     "slug": "plastic-waste-co2-capture-materials",
     "date": "8th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "innovation",
@@ -93,39 +132,10 @@
     "image": "/images/hubble-spiral-galaxy.webp",
     "slug": "hubble-spiral-galaxy-properties",
     "date": "8th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
 
-  },
-  {
-    "category": "innovation",
-    "title": "ALMA Reveals Unveiled Star Formation Processes in a Remote Part of the Milky Way",
-    "shortdescription": "ALMA has provided new insights into star formation in a remote region of our galaxy.",
-    "description": "Astronomers, which includes scientists on the Atacama Large Millimeter/submillimeter Array (ALMA), made a new discovery regarding star formation in the Milky Way galaxy. The astronomers focused on dense molecular clouds, the basic sites for star formation, and collected high-resolution images of the structural complexities of the gas and dust. Scientists, using ALMA's sensitivity, were able to examine the dense molecular gas that exhibited dynamics motions collaping to form a protostar. This research revealed that stars form in clusters rather than as single stars and that they are always interacting with other stars, thus the neighboring gas and dust is being affected. This research reveals important clues to how the star evolutionary timeline is developing in the Milky Way and will aid in research studying star formation in other galaxies. Experts agree that this work is an enormous leap forward in astrophysics and illustrates ALMA's ability to probe the earliest and most elusive parts of stellar evolution. Choosing to study star formation is not only critical for understanding the formation of galaxies but also helps us to understand the origins of planetary systems, and to illustrate the complicated interactions involved in the building of galactic structure. We believe that continued monitoring will broaden our perspective of the Universe, will refine star and galaxy formation theories, and will develop even more research in astrophysics.",
-    "image": "/images/alma-star-formation.webp",
-    "slug": "alma-star-formation-milky-way",
-    "date": "8th September 2025",
-    "author":"David Miller"
-
-  },
-  {
-    "category": "innovation",
-    "title": "Solar Flares Are Six Times Hotter Than Previously Believed, Finally Solving 50-Year Problem",
-    "shortdescription": "Recent research finds solar flares much hotter than previously thought, a significant advancement that solves a decades-old solar physics mystery.",
-    "description": "Scientists have confirmed that solar flares are much hotter than previously thought, being at least six times hotter than previously thought, making a great breakthrough in solar physics, resolving a mystery that has lasted for over 50 years on how the corona - the outer layer of the Sun’s atmosphere is getting heat at such extreme levels. So understanding solar flares is of a massive scientific importance and a significant practical relevance, just as solar flares are also very powerful bursts of energy that can interfere with satellite communications, disrupt power grids and change the accuracy of forecasts for space weather. The study also makes a contribution to understanding good physics of plasma, plasma physics, and magnetic fields which are important, not just to the Sun, but all stars in the universe. Professional scientific reviewers regard this finding as a significant benchmark in the study of space, with ramifications for astrophysics as well as solar-terrestrial phenomena and Earth's vulnerability in terms of technology. The study also reiterates the importance of ongoing real-time observations of solar activity using more powerful observatories and space-based telescopes and satellites. By investigating these superheating solar occurrence events, the aim is to improve warning systems that protect critical technologies, deepen knowledge of how other stellar bodies behave, and develop models to help mitigate problems with these solar events. This finding will guide future studies, add to existing space weather models, and create an updated approach for protecting technological systems from being affected by solar events.",
-    "image": "/images/solar-flares-hotter.webp",
-    "slug": "solar-flares-hotter-50-year-mystery",
-    "date": "8th September 2025",
-    "author":"Lauren Jacobs"
-  },
-  {
-    "category": "innovation",
-    "title": "Webb Telescope Identifies Atmosphere on Possibly Habitable Exoplanet TRAPPIST-1e",
-    "shortdescription": "NASA's James Webb Space Telescope has observed indications of an atmosphere on TRAPPIST-1e, which is considered a potentially habitable exoplanet. ",
-    "description": "The James Webb Space Telescope has found signs of an atmosphere on TRAPPIST-1e, one of the most promising exoplanets in the search for extraterrestrial life. TRAPPIST-1e is located approximately 40 light-years from Earth, and is considered an excellent candidate for habitability due to its Earth-like size and rocky composition and because it has an orbit in its star's habitable zone. The detection of atmospheric elements will allow scientists to investigate the climate of the planet, the possibility of water, and whether the planet is habitable for life. Researchers expect follow-up observations will provide additional detail to characterize the planet's chemical composition, including its potential weather and biosignatures. This finding improves knowledge of exoplanet atmospheres and gives astronomers the ability to contrast TRAPPIST-1e's atmosphere with that of Earth and the other planets in the TRAPPIST-1 system. Experts believe studying the atmospheres of nearby exoplanets is critical to determine if they can sustain life, as well as planning future exploratory missions. The results underscore the Webb Telescope's far-reaching ability to investigate distant worlds, broaden understanding of planetary systems, and encourage further inquiry about the origins and distribution of life in our universe. In addition, this discovery is anticipated to inform future missions targeting atmospheric characterization and may remain central to a search for technologically advanced civilizations, thereby securing TRAPPIST-1e as a focus of astrobiology research.",
-    "image": "/images/trappist-1e-atmosphere.webp",
-    "slug": "webb-telescope-trappist-1e-atmosphere",
-    "date": "10th September 2025",
-    "author":"Daniel Ruiz"
 
   },
   {
@@ -136,7 +146,10 @@
     "image": "/images/erc-grants-2025.webp",
     "slug": "erc-grants-2025-early-career-researchers",
     "date": "8th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "innovation",
@@ -146,7 +159,10 @@
     "image": "/images/uk-horizon-europe-campaign.webp",
     "slug": "uk-horizon-europe-spain-germany",
     "date": "3rd September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "innovation",
@@ -156,7 +172,10 @@
     "image": "/images/general-atomics-manufacturing-center.webp",
     "slug": "general-atomics-manufacturing-center-mississippi",
     "date": "10th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -167,7 +186,10 @@
     "image": "/images/pulmonary-hypertension-treatment.webp",
     "slug": "restoring-roots-pulmonary-hypertension-treatment",
     "date": "10th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   },
   {
@@ -178,7 +200,10 @@
     "image": "/images/cancer-research-funding-inequality.webp",
     "slug": "global-cancer-research-funding-inequalities",
     "date": "10th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "innovation",
@@ -188,7 +213,10 @@
     "image": "/images/methane-emissions-food-system.webp",
     "slug": "rethinking-methane-emissions-global-food-system",
     "date": "10th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -199,7 +227,10 @@
     "image": "/images/kunming-manifesto-agrobiodiversity.webp",
     "slug": "kunming-manifesto-agrobiodiversity-food-systems",
     "date": "10th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "innovation",
@@ -209,7 +240,10 @@
     "image": "/images/wna-2025-performance-report.webp",
     "slug": "wna-2025-nuclear-energy-assessment",
     "date": "4th September 2025",
-    "author":"Lauren Jacobs"
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
+
   },
   {
     "category": "innovation",
@@ -219,7 +253,24 @@
     "image": "/images/project-h2shift-hydrogen.webp",
     "slug": "project-h2shift-hydrogen-innovation",
     "date": "4th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
+
+  },
+  {
+    "category": "innovation",
+    "title": "ALMA Reveals Unveiled Star Formation Processes in a Remote Part of the Milky Way",
+    "shortdescription": "ALMA has provided new insights into star formation in a remote region of our galaxy.",
+    "description": "Astronomers, which includes scientists on the Atacama Large Millimeter/submillimeter Array (ALMA), made a new discovery regarding star formation in the Milky Way galaxy. The astronomers focused on dense molecular clouds, the basic sites for star formation, and collected high-resolution images of the structural complexities of the gas and dust. Scientists, using ALMA's sensitivity, were able to examine the dense molecular gas that exhibited dynamics motions collaping to form a protostar. This research revealed that stars form in clusters rather than as single stars and that they are always interacting with other stars, thus the neighboring gas and dust is being affected. This research reveals important clues to how the star evolutionary timeline is developing in the Milky Way and will aid in research studying star formation in other galaxies. Experts agree that this work is an enormous leap forward in astrophysics and illustrates ALMA's ability to probe the earliest and most elusive parts of stellar evolution. Choosing to study star formation is not only critical for understanding the formation of galaxies but also helps us to understand the origins of planetary systems, and to illustrate the complicated interactions involved in the building of galactic structure. We believe that continued monitoring will broaden our perspective of the Universe, will refine star and galaxy formation theories, and will develop even more research in astrophysics.",
+    "image": "/images/alma-star-formation.webp",
+    "slug": "alma-star-formation-milky-way",
+    "date": "8th September 2025",
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
 
   },
   {
@@ -230,7 +281,10 @@
     "image": "/images/biometric-payments-cybersecurity.webp",
     "slug": "biometric-payments-cybersecurity-fingerprints",
     "date": "8th September 2025",
-    "author":"Daniel Ruiz"
+    "author":"Daniel Ruiz",
+      "role":"",
+    "authorImage":"/images/daniel-ruiz.webp"
+
 
   },
   {
@@ -241,7 +295,23 @@
     "image": "/images/jupiter-supercomputer-exascale.webp",
     "slug": "jupiter-supercomputer-europe-exascale",
     "date": "5th September 2025",
-    "author":"David Miller"
+    "author":"David Miller",
+      "role":"",
+    "authorImage":"/images/david-miller.webp"
+
+
+  },
+   {
+    "category": "innovation",
+    "title": "Solar Flares Are Six Times Hotter Than Previously Believed, Finally Solving 50-Year Problem",
+    "shortdescription": "Recent research finds solar flares much hotter than previously thought, a significant advancement that solves a decades-old solar physics mystery.",
+    "description": "Scientists have confirmed that solar flares are much hotter than previously thought, being at least six times hotter than previously thought, making a great breakthrough in solar physics, resolving a mystery that has lasted for over 50 years on how the corona - the outer layer of the Sun’s atmosphere is getting heat at such extreme levels. So understanding solar flares is of a massive scientific importance and a significant practical relevance, just as solar flares are also very powerful bursts of energy that can interfere with satellite communications, disrupt power grids and change the accuracy of forecasts for space weather. The study also makes a contribution to understanding good physics of plasma, plasma physics, and magnetic fields which are important, not just to the Sun, but all stars in the universe. Professional scientific reviewers regard this finding as a significant benchmark in the study of space, with ramifications for astrophysics as well as solar-terrestrial phenomena and Earth's vulnerability in terms of technology. The study also reiterates the importance of ongoing real-time observations of solar activity using more powerful observatories and space-based telescopes and satellites. By investigating these superheating solar occurrence events, the aim is to improve warning systems that protect critical technologies, deepen knowledge of how other stellar bodies behave, and develop models to help mitigate problems with these solar events. This finding will guide future studies, add to existing space weather models, and create an updated approach for protecting technological systems from being affected by solar events.",
+    "image": "/images/solar-flares-hotter.webp",
+    "slug": "solar-flares-hotter-50-year-mystery",
+    "date": "8th September 2025",
+    "author":"Lauren Jacobs",
+      "role":"",
+    "authorImage":"/images/lauren-jacobs.webp"
 
   }
 ]
