@@ -57,7 +57,10 @@ const HeaderTopSix = () => {
                               {business.map((item, i) => (
                                  <SwiperSlide key={i} className="swiper-slide">
                                     <div className="trending-content">
-                                       <Link href="/blog-details">{item.title}</Link>
+                                       <Link
+                              href={`/${item.category}/${item.slug}`}
+                              title={item.slug}
+                           >{item.title}</Link>
                                     </div>
                                  </SwiperSlide>
                               ))}

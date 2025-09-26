@@ -1632,7 +1632,7 @@ label {
     display: -webkit-flex;
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 1 -1;
 }
 .offCanvas-logo {
     margin: 0 0 25px;
