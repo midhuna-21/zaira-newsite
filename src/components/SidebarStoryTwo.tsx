@@ -53,7 +53,7 @@ const SidebarStoryTwo:React.FC<Props> = ({data}) => {
       <div className="sidebar-widget-three">
          <div className="widget-title widget-title-three mb-20">
             <div className="section-title-line"></div>
-            <h2 className="title">Top Stories</h2>
+            {/* <h2 className="title">Top Stories</h2> */}
          </div>
          <div className="stories-post-wrap-two">
             {data.map((item) => (

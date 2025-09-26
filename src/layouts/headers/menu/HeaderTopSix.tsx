@@ -99,7 +99,7 @@ const HeaderTopSix = () => {
                   <div className="col-lg-4">
                      <div className="hl-right-side-four">
                         <div className="sign-in">
-                           <Link href="/contact"><i className="flaticon-user"></i>Sign In</Link>
+                           <Link href="#"><i className="flaticon-user"></i>Sign In</Link>
                         </div>
                         {/* <div className="subscribe-btn">
                            <Link href="/contact" className="btn btn-two">Subscribe</Link>

@@ -3,7 +3,7 @@ import BlogAvatar from "./BlogAvatar"
 import BlogPrevNext from "./BlogPrevNext"
 import BlogComment from "./BlogComment"
 import BlogForm from "@/components/forms/BlogForm"
-import BlogSidebar from "../components/blogs/common-blog/BlogSidebar"
+import BlogSidebar from "./common/BlogSidebar"
 
 
 const BlogDetailsArea = ({ style, data,otherArticles}: any) => {

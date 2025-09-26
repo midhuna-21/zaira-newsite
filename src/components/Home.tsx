@@ -15,7 +15,7 @@ const Home = () => {
    return (
       <>
          <HeaderSix />
-         <Banner data={[businessData[2],innovationData[0],investingData[0],enterpriseData[0],usData[0],innovationData[1],enterpriseData[1],innovationData[9],businessData[9],usData[9],innovationData[6],usData[6],enterpriseData[6],enterpriseData[8],businessData[8],usData[8],investingData[9],investingData[1],enterpriseData[4],investingData[2]]}/>
+         <Banner data={[businessData[2],innovationData[0],investingData[0],businessData[11],businessData[12],businessData[13],businessData[14],innovationData[9],businessData[9],usData[9],innovationData[6],usData[6],enterpriseData[6],enterpriseData[8],businessData[8],usData[8],investingData[9],investingData[1],enterpriseData[4],investingData[2]]}/>
          {/* <AdBannerTwo /> */}
          <EditorPost data={[businessData[0],innovationData[2],enterpriseData[2],usData[1]]}/>
          <TopNews data={[businessData[4],innovationData[4],investingData[4],enterpriseData[5],usData[14],usData[5],usData[12],usData[16],investingData[5],investingData[6],investingData[7],usData[11]]}  />

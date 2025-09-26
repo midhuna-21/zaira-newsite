@@ -1,6 +1,4 @@
 import Breadcrumbs from "@/components/common/Breadcrumbs"
-import FooterOne from "@/layouts/footers/FooterOne"
-import HeaderOne from "@/layouts/headers/HeaderOne"
 import BlogDetailsArea from "../../../components/BlogDetailsArea"
 import businessData from '../../../../public/data/business.json';
 import usData from '../../../../public/data/us.json';
@@ -9,6 +7,7 @@ import investingData from '../../../../public/data/investing.json';
 import enterpriseData from '../../../../public/data/enterprise.json';
 import FooterThree from "@/layouts/footers/FooterThree";
 import HeaderSix from "@/layouts/headers/HeaderSix";
+import Wrapper from "@/layouts/Wrapper";
 
 export async function generateStaticParams() {
     const allData = [
@@ -68,7 +67,7 @@ export default async function DetailPage({ params }: DetailPageProps) {
     const otherArticles = data.filter(item => item.slug !== slug);
 
     return (
-        <>
+        <Wrapper>
              <HeaderSix />
             <main className="fix">
                 {/* <Breadcrumbs page={} style={true} /> */}
@@ -76,7 +75,7 @@ export default async function DetailPage({ params }: DetailPageProps) {
                 <BlogDetailsArea style={false} data={article} otherArticles={otherArticles} />
             </main>
             <FooterThree />
-        </>
+            </Wrapper>
     )
 }
 

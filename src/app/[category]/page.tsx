@@ -1,9 +1,6 @@
 import Breadcrumbs from "@/components/common/Breadcrumbs";
-import FooterOne from "@/layouts/footers/FooterOne";
-import HeaderOne from "@/layouts/headers/HeaderOne";
 import React from "react";
 import BlogArea from "../../components/BlogArea";
-import FooterNews from "@/components/common/FooterNews";
 import businessData from "../../../public/data/business.json";
 import usData from "../../../public/data/us.json";
 import enterpriseData from "../../../public/data/enterprise.json";
@@ -13,6 +10,7 @@ import { Metadata } from "next";
 import FooterThree from "@/layouts/footers/FooterThree";
 import HeaderSix from "@/layouts/headers/HeaderSix";
 import Newsletter from "@/components/Newsletter";
+import Wrapper from "@/layouts/Wrapper";
 
 interface NewsItem {
     category: string;
@@ -139,16 +137,18 @@ export default async function CategoryPage({
     }
 
     return (
-        <>
-               <HeaderSix />
-            <main className="fix">
-              <Breadcrumbs page={data[0].category} style={false} />
+            <Wrapper>
 
-                <BlogArea style={true} data={data}/>
-                <Newsletter />
-            </main>
-            <FooterThree />
-        </>
+                <HeaderSix />
+             <main className="fix">
+               <Breadcrumbs page={data[0].category} style={false} />
+ 
+                 <BlogArea style={true} data={data}/>
+                 <Newsletter />
+             </main>
+             <FooterThree />
+            </Wrapper>
+    
     );
 }
 

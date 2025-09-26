@@ -83,7 +83,7 @@ const EditorPost: React.FC<Props> = ({ data }) => {
 
    return (
       <>
-         <section className="editor-post-area-three">
+         <section className="editor-post-area-three"style={{marginTop:'20px'}}>
             <div className="container">
                <div className="row">
                   <div className="col-lg-12">

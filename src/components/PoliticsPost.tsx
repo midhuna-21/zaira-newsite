@@ -21,10 +21,10 @@ interface Props {
 
 const PoliticsPost: React.FC<Props> = ({ data }) => {
    return (
-      <section className="politics-post-area">
+      <section className="politics-post-area" style={{marginTop:'20px'}}>
          <div className="section-title-wrap">
             <div className="section-title section-title-four">
-               <h2 className="title">Politics</h2>
+               <h2 className="title">Business</h2>
                <div className="section-title-line"></div>
             </div>
          </div>
